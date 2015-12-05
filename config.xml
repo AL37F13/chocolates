@@ -2,17 +2,17 @@
  <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->  
  <widget xmlns   = "http://www.w3.org/ns/widgets"  
      xmlns:gap = "http://phonegap.com/ns/1.0"  
-     id    = "com.phonegap.Esqueleto"  
+     id    = "com.phonegap.chocolates"  
      version  = "1.0.0">  
 	 
-   <name> Nombre </name>  
+   <name> chocolates </name>  
    
    <description>  
-     Primer Ejemplo de eventos
+     aplicacion de chocolates 
    </description>  
    
    <author href="https://build.phonegap.com" email="micorreo@gmail.com">  
-       Nombre
+       lucero romero 
    </author>  
    
    <!-- Personaliza la aplicacion y plataforma  -->  
