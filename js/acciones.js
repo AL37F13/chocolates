@@ -26,7 +26,7 @@ $('#btnlistado').on('tap',function(){
 	$.ajax({
 		type:"POST",
 		url:"http://192.168.1.189/proyecto/buscar.php",
-		data:"nombre=" + $('#txtnombre').val(),
+		data:"nombre=" + $('#txtbuscar').val(),
 		error: function(){alert("error en conexion");},
 		success: function(respuesta){var producto = JSON.parse(respuesta);
 		alert(respuesta);
