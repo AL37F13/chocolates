@@ -4,7 +4,7 @@ document.addEventListener("deviceready",function(){ // esperar asta que el dispo
 $('#btnlistado').on('tap',function(){
 	$.ajax({
 		type:"POST",
-		url:"http://192.168.1.162/proyecto/buscartodo.php",
+		url:"http://192.168.1.189/proyecto/buscartodo.php",
 		data:"",
 		error: function(){alert("error en conexion");},
 		success: function(respuesta){var producto = JSON.parse(respuesta);
@@ -25,7 +25,7 @@ $('#btnlistado').on('tap',function(){
 			$('#btnbuscar').on('tap',function(){
 	$.ajax({
 		type:"POST",
-		url:"http://192.168.1.162/proyecto/buscar.php",
+		url:"http://192.168.1.189/proyecto/buscar.php",
 		data:"nombre=" + $('#txtnombre').val(),
 		error: function(){alert("error en conexion");},
 		success: function(respuesta){var producto = JSON.parse(respuesta);
